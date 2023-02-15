@@ -12,5 +12,9 @@
     "web"
   ],
   "author": "Juan Sanchez <jucasapa9504@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
