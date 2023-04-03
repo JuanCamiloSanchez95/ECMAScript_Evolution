@@ -20,6 +20,9 @@ let  country = 'COL';
 let data = { id:1,...person,...med , country}
 console.log(data);
 
+let s = [..."HOLA"];
+console.log(s)
+
 /* REST */
 function sum(num, ...values){
     console.log(values);

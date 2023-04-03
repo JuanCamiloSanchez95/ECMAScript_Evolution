@@ -13,4 +13,4 @@ const anotherFunction = (num)=>{
  anotherFunction(12)
      .then(response => console.log(response))
      .catch(err => console.log(err))
-     .finally(()=>{console.log("Finally")});
+     .finally(()=>{console.log("Finally")}); // Imprime Finally 

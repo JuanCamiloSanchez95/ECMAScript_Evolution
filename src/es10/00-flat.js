@@ -7,4 +7,6 @@ console.log(arra2.flat());
     console.log(arra2.flat(2));
 
     //FLATMAP 
-    console.log(arra.flatMap(num => num + 2));
+let array = [1,2,3,4,5];
+
+console.log(array.flatMap(value => [value, value * 2]));

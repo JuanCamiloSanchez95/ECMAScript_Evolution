@@ -5,6 +5,7 @@ const arrayEntries = [
     [ 'age', 23 ]
   ] 
   
+  console.log(arrayEntries );
   const usuario = Object.fromEntries(arrayEntries) 
   console.log(usuario)
 

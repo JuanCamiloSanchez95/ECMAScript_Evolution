@@ -6,8 +6,8 @@ const fnAsync = ()=>{
     })
 }
 
-const anotherFunc =  () => {
-    const something =   fnAsync();
+const anotherFunc =  async () => {
+    const something = await  fnAsync();
     console.log(something);
     console.log("FIN");
 };

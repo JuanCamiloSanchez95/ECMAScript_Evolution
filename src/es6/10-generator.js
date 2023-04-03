@@ -6,6 +6,7 @@ function* iterate(arr){
 }
 
 const it = iterate(["jau","dsafd","david","ana","carlos","jeff"]);
-console.log(it.next().ele);
-console.log(it.next().ele);
-console.log(it.next().ele);
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
